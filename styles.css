@@ -1,15 +1,11 @@
-#photo{
-    border: 2px solid blue;
+#photo {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto 0;
 }
 
-h1{
-    color: blue;
-}
-
-h2{
-    color: grey;
-}
-
-div{
-    margin: 4px;
+body {
+    padding: 40px 0;
 }

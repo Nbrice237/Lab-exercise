@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Your Name</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div>
-            <h1>Makebel Noel Brice</h1>
+
+<head>
+    <title>Your Name</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Left column: name + photo -->
+            <div class="col-12 col-lg-6 text-center">
+                <h1>Noel Brice</h1>
+                <img src="image vannelle.png" id="photo" alt="My photo" class="img-fluid">
+            </div>
+            <!-- Right column: music, films, button -->
+            <div class="col-12 col-lg-6">
+                <h2>Favorite Music Artists</h2>
+                <ul>
+                    <li>Kendrick Lamar</li>
+                    <li>Lil Wayne</li>
+                    <li>Kanye West</li>
+                    <li>Fally ipupa</li>
+                    <li>Drake</li>
+                </ul>
+
+                <h2>Favorite Films</h2>
+                <ol>
+                    <li>Snowfall</li>
+                    <li>Breaking bad</li>
+                    <li>Power</li>
+                    <li>Blacklist</li>
+                    <li>Money Heist</li>
+                </ol>
+
+                <a href="https://www.meta.com/" target="_blank" class="btn btn-primary">My Meta Profile</a>
+            </div>
         </div>
-        <div>
-            <img src="image vannelle.png" id="photo" alt="My photo">
-        </div>
-        <div>
-            <h2>Favorite Music Artists.</h2>
-            <ul>
-                <li>Kendrick Lamar</li>
-                <li>Lil Wayne</li>
-                <li>Kanye West</li>
-                <li>Fally ipupa</li>
-                <li>Drake</li>
-            </ul>
-        </div>
-        <div>
-            <h2>Favorite Films.</h2>
-            <ol>
-                <li>Snowfall</li>
-                <li>Breaking bad</li>
-                <li>Power</li>
-                <li>Blacklist</li>
-                <li>Money Heist</li>
-            </ol>
-        </div>
-        <div>
-            <a href="https://www.meta.com/" target="_blank">My Profile</a>
-        </div>
-    </body>
+    </div>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
